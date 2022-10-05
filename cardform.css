@@ -1,0 +1,146 @@
+body{
+    font-family: 'Anton', sans-serif;
+    font-family: 'Combo', cursive;
+    font-family: 'Didact Gothic', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+.thebody{
+    display: flex;
+}
+
+.borad{
+    background-image: linear-gradient(300deg, rgb(7, 7, 58),rgb(80, 22, 72),rgb(7, 7, 58),rgb(54, 17, 61));
+    width: 360px;
+    height: 676px;
+}
+.card{
+    border: 1px solid rgb(0, 0, 0);
+    background-image: linear-gradient(300deg,rgb(178, 10, 230),rgb(238, 102, 11),rgb(240, 14, 183),rgb(86, 20, 238));
+    width:400px;
+    margin-top: 100px;
+    margin-left: 120px;
+    height: 220px;
+    border-radius: 10px;
+}
+.innercircle{
+    height: 40px;
+    width: 40px;
+    background-color: #fff;
+    border-radius: 100%;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.secondcircle{
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    border: 1px solid #fff;
+    border-radius: 100%;
+    top: 145px;
+    left:200px;    
+}
+.thedigites{
+    font-size: 30px;
+    color: #fff;
+    margin-top: 65px;
+    margin-left: 30px;
+}
+.name{
+    font-size: 11px;
+    color: #fff;
+    margin-top:25px;
+    margin-left: 30px;
+}
+.numbers{
+    position: absolute;
+    font-size: 11px;
+    color: #fff;
+    bottom: 385px ;
+    margin-left: 290px;
+}
+
+
+.card2{
+    background-image: linear-gradient(300deg,rgb(173, 167, 167),rgb(223, 217, 217),rgb(223, 217, 217),rgb(223, 217, 217));
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.096);
+    width:400px;
+    margin-top: 30px;
+    margin-left: 200px;
+    height: 220px;
+    border-radius: 10px;
+}
+.theblackline{
+    position: absolute;
+    background-color: rgb(44, 42, 42);
+    top: 380px;
+    width:400px;
+    height: 40px;
+}
+.thegreyline{
+    position: absolute;
+    background-color: rgb(170, 159, 159);
+    top: 440px;
+    width:290px;
+    left: 255px;
+    height: 40px;
+    border-radius: 4px;
+    text-align: end;
+    color: #fff;
+    line-height: 3;
+    padding-right: 20px;
+}
+.line{
+    font-size: 20px;
+    height: 10px;
+    color: gray;
+    padding-top: 130px;
+    margin-left: 90px;
+    margin-right: 90px;
+    
+}
+.registrationform{
+    position: absolute;
+    left: 55%;
+    top: 15%;
+}
+.registrationform p{
+    font-size: 12px;
+    color: purple;
+}
+.registrationform input{
+    font-size: 16px;
+    padding: 7px 10px;
+    width: 100%;
+    border:1px solid gray ;
+    border-radius: 1px;
+    outline: none ;
+    border-radius: 4px;
+}
+.registrationform button{
+    font-size: 18px;
+    margin: 20px 0;
+    padding: 10px 15px;
+    width: 110%;
+    background-color: purple;
+    color: #fff;
+    border-radius: 10px;
+    border: none;
+}
+
+.mm{
+    padding-top: 7px;
+    width: 40px;
+}
+.yy{
+    position: absolute;
+    top: 210px ;
+    left: 80px;
+    width: 40px;
+}
+.cvc{
+    position: absolute;
+    top: 210px ;
+    left: 153px;
+}
